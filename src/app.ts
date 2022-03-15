@@ -1,5 +1,5 @@
 console.clear();
-import express from 'express';
+import * as express from 'express';
 import { resolve, join } from 'path';
 
 
