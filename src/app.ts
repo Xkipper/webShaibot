@@ -3,7 +3,7 @@ import express from 'express';
 import { resolve, join } from 'path';
 
 
-const app = express();
+const app: express.Application = express();
 app.use(express.static(join(resolve("./"), 'html')));
 
 // listen for requests :)
