@@ -29,6 +29,6 @@ app.get('/success', async (req, res) => {
 
 
 app.get('/login', async (req, res) => {
-    res.redirect("https://open.trovo.live/page/login.html?client_id=e0b02bf8e9720f5a6f8a5b54ee2d6637&response_type=token&scope=user_details_self+chat_send_self+send_to_my_channel+manage_messages&redirect_uri=http%3A%2F%2Fshaibot-trovo.herokuapp.com%3A3000%2Fsuccess&state=statedata")
+    res.redirect("https://open.trovo.live/page/login.html?client_id=e0b02bf8e9720f5a6f8a5b54ee2d6637&response_type=token&scope=user_details_self+chat_send_self+send_to_my_channel+manage_messages&redirect_uri=http%3A%2F%2Fshaibot-trovo.herokuapp.com%2Fsuccess&state=statedata")
     res.end()
 })
